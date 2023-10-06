@@ -1,0 +1,56 @@
+#root {
+    text-align: center;
+    width: 40rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+}
+
+th,
+td {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.submitButton {
+    background-color: white;
+    color: rgb(114, 114, 114);
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+input {
+    background-color: white;
+    color: rgb(114, 114, 114);
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.circle-button {
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(114, 114, 114);
+    cursor: pointer;
+}
